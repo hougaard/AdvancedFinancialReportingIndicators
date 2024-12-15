@@ -1,0 +1,18 @@
+{
+  "TableNo": "5135",
+  "TableName": "Job Archive",
+  "Name": "Calc. Recog. Costs G/L Amount",
+  "SumFieldTable": "Job Task Archive",
+  "SumFieldName": "Recognized Costs G/L Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Version No.",
+      "Type": "Static"
+    }
+  ]
+}

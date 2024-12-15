@@ -1,0 +1,22 @@
+{
+  "TableNo": "81",
+  "TableName": "Gen. Journal Line",
+  "Name": "Allocated Amt. (LCY)",
+  "SumFieldTable": "Gen. Jnl. Allocation",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Journal Template Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Journal Batch Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Journal Line No.",
+      "Type": "Static"
+    }
+  ]
+}

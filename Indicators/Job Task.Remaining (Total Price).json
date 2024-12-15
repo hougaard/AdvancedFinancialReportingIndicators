@@ -1,0 +1,27 @@
+{
+  "TableNo": "1001",
+  "TableName": "Job Task",
+  "Name": "Remaining (Total Price)",
+  "SumFieldTable": "Job Planning Line",
+  "SumFieldName": "Remaining Line Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Job Task No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Schedule Line",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Planning Date",
+      "Type": "Column Period"
+    }
+  ]
+}

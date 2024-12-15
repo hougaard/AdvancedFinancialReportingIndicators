@@ -1,0 +1,22 @@
+{
+  "TableNo": "98",
+  "TableName": "General Ledger Setup",
+  "Name": "Cust. Balances Due",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Initial Entry Global Dim. 1",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Initial Entry Global Dim. 2",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Initial Entry Due Date",
+      "Type": "Column Period"
+    }
+  ]
+}

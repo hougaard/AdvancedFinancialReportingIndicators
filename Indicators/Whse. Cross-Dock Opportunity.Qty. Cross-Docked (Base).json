@@ -1,0 +1,26 @@
+{
+  "TableNo": "5768",
+  "TableName": "Whse. Cross-Dock Opportunity",
+  "Name": "Qty. Cross-Docked (Base)",
+  "SumFieldTable": "Whse. Cross-Dock Opportunity",
+  "SumFieldName": "Qty. to Cross-Dock (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Source Template Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Name/No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Line No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    }
+  ]
+}

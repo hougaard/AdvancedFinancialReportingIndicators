@@ -1,0 +1,32 @@
+{
+  "TableNo": "5990",
+  "TableName": "Service Shipment Header",
+  "Name": "Allocated Hours",
+  "SumFieldTable": "Service Order Allocation",
+  "SumFieldName": "Allocated Hours",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static",
+      "Value": "Order"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Resource No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Resource Group No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "Active | Finished"
+    }
+  ]
+}

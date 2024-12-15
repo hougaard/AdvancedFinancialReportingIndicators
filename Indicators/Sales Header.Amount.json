@@ -1,0 +1,18 @@
+{
+  "TableNo": "36",
+  "TableName": "Sales Header",
+  "Name": "Amount",
+  "SumFieldTable": "Sales Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

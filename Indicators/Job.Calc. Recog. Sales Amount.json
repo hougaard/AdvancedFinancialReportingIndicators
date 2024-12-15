@@ -1,0 +1,14 @@
+{
+  "TableNo": "167",
+  "TableName": "Job",
+  "Name": "Calc. Recog. Sales Amount",
+  "SumFieldTable": "Job Task",
+  "SumFieldName": "Recognized Sales Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    }
+  ]
+}

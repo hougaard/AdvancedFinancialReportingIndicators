@@ -1,0 +1,24 @@
+{
+  "TableNo": "167",
+  "TableName": "Job",
+  "Name": "Total WIP Sales Amount",
+  "SumFieldTable": "Job WIP Entry",
+  "SumFieldName": "WIP Entry Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Job Complete",
+      "Type": "Static",
+      "Value": "false"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "\"Accrued Sales\" | \"Applied Sales\" | \"Recognized Sales\""
+    }
+  ]
+}

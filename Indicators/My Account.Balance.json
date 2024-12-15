@@ -1,0 +1,14 @@
+{
+  "TableNo": "9153",
+  "TableName": "My Account",
+  "Name": "Balance",
+  "SumFieldTable": "G/L Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "G/L Account No.",
+      "Type": "Static"
+    }
+  ]
+}

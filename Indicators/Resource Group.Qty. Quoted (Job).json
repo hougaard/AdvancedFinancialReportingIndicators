@@ -1,0 +1,33 @@
+{
+  "TableNo": "152",
+  "TableName": "Resource Group",
+  "Name": "Qty. Quoted (Job)",
+  "SumFieldTable": "Job Planning Line",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "Quote"
+    },
+    {
+      "Field": "Schedule Line",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "Resource"
+    },
+    {
+      "Field": "Resource Group No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Planning Date",
+      "Type": "Column Period"
+    }
+  ]
+}

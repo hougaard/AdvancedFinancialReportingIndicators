@@ -1,0 +1,24 @@
+{
+  "TableNo": "295",
+  "TableName": "Reminder Header",
+  "Name": "Remaining Amount",
+  "SumFieldTable": "Reminder Line",
+  "SumFieldName": "Remaining Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Reminder No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Line Type",
+      "Type": "Static",
+      "Value": "\"Reminder Line\""
+    },
+    {
+      "Field": "Detailed Interest Rates Entry",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

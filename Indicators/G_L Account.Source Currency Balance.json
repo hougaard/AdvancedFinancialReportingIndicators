@@ -1,0 +1,26 @@
+{
+  "TableNo": "15",
+  "TableName": "G/L Account",
+  "Name": "Source Currency Balance",
+  "SumFieldTable": "G/L Entry",
+  "SumFieldName": "Source Currency Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "G/L Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Business Unit Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Global Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Global Dimension 2 Code",
+      "Type": "Global Dim 2"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "TableNo": "304",
+  "TableName": "Issued Fin. Charge Memo Header",
+  "Name": "Remaining Amount",
+  "SumFieldTable": "Issued Fin. Charge Memo Line",
+  "SumFieldName": "Remaining Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Finance Charge Memo No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Detailed Interest Rates Entry",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

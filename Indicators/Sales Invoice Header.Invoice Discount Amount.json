@@ -1,0 +1,14 @@
+{
+  "TableNo": "112",
+  "TableName": "Sales Invoice Header",
+  "Name": "Invoice Discount Amount",
+  "SumFieldTable": "Sales Invoice Line",
+  "SumFieldName": "Inv. Discount Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

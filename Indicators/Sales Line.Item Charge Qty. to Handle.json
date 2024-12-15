@@ -1,0 +1,22 @@
+{
+  "TableNo": "37",
+  "TableName": "Sales Line",
+  "Name": "Item Charge Qty. to Handle",
+  "SumFieldTable": "Item Charge Assignment (Sales)",
+  "SumFieldName": "Qty. to Handle",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document Line No.",
+      "Type": "Static"
+    }
+  ]
+}

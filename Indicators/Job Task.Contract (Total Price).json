@@ -1,0 +1,27 @@
+{
+  "TableNo": "1001",
+  "TableName": "Job Task",
+  "Name": "Contract (Total Price)",
+  "SumFieldTable": "Job Planning Line",
+  "SumFieldName": "Line Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Job Task No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Contract Line",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Planning Date",
+      "Type": "Column Period"
+    }
+  ]
+}

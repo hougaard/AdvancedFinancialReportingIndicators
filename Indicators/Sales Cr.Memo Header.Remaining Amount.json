@@ -1,0 +1,14 @@
+{
+  "TableNo": "114",
+  "TableName": "Sales Cr.Memo Header",
+  "Name": "Remaining Amount",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Cust. Ledger Entry No.",
+      "Type": "Static"
+    }
+  ]
+}

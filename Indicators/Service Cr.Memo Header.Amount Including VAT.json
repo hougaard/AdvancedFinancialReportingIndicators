@@ -1,0 +1,14 @@
+{
+  "TableNo": "5994",
+  "TableName": "Service Cr.Memo Header",
+  "Name": "Amount Including VAT",
+  "SumFieldTable": "Service Cr.Memo Line",
+  "SumFieldName": "Amount Including VAT",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "TableNo": "295",
+  "TableName": "Reminder Header",
+  "Name": "Add. Fee per Line",
+  "SumFieldTable": "Reminder Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Reminder No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "\"Line Fee\""
+    },
+    {
+      "Field": "Line Type",
+      "Type": "Static",
+      "Value": "<> \"Not Due\""
+    }
+  ]
+}

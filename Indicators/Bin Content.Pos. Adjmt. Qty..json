@@ -1,0 +1,42 @@
+{
+  "TableNo": "7302",
+  "TableName": "Bin Content",
+  "Name": "Pos. Adjmt. Qty.",
+  "SumFieldTable": "Warehouse Journal Line",
+  "SumFieldName": "Qty. (Absolute)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "To Bin Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Unit of Measure Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Lot No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Serial No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Package No.",
+      "Type": "Static"
+    }
+  ]
+}

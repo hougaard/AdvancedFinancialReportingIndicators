@@ -1,0 +1,38 @@
+{
+  "TableNo": "7332",
+  "TableName": "Whse. Internal Put-away Line",
+  "Name": "Put-away Qty. (Base)",
+  "SumFieldTable": "Warehouse Activity Line",
+  "SumFieldName": "Qty. Outstanding (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Activity Type",
+      "Type": "Static",
+      "Value": "\"Put-away\""
+    },
+    {
+      "Field": "Whse. Document Type",
+      "Type": "Static",
+      "Value": "\"Internal Put-away\""
+    },
+    {
+      "Field": "Whse. Document No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Whse. Document Line No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Action Type",
+      "Type": "Static",
+      "Value": "\" \" | Take"
+    },
+    {
+      "Field": "Original Breakbulk",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

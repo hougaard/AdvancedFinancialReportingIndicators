@@ -1,0 +1,14 @@
+{
+  "TableNo": "5992",
+  "TableName": "Service Invoice Header",
+  "Name": "Amount Including VAT",
+  "SumFieldTable": "Service Invoice Line",
+  "SumFieldName": "Amount Including VAT",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "TableNo": "18",
+  "TableName": "Customer",
+  "Name": "Outstanding Invoices",
+  "SumFieldTable": "Sales Line",
+  "SumFieldName": "Outstanding Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static",
+      "Value": "Invoice"
+    },
+    {
+      "Field": "Bill-to Customer No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Shortcut Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Shortcut Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Currency Code",
+      "Type": "Static"
+    }
+  ]
+}

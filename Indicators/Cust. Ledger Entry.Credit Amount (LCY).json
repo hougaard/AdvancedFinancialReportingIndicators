@@ -1,0 +1,23 @@
+{
+  "TableNo": "21",
+  "TableName": "Cust. Ledger Entry",
+  "Name": "Credit Amount (LCY)",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Credit Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Ledger Entry Amount",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Cust. Ledger Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

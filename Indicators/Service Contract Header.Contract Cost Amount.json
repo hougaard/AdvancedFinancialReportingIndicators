@@ -1,0 +1,37 @@
+{
+  "TableNo": "5965",
+  "TableName": "Service Contract Header",
+  "Name": "Contract Cost Amount",
+  "SumFieldTable": "Service Ledger Entry",
+  "SumFieldName": "Cost Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Service Contract No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "Usage"
+    },
+    {
+      "Field": "Moved from Prepaid Acc.",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Open",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

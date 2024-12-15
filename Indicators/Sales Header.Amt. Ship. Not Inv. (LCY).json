@@ -1,0 +1,18 @@
+{
+  "TableNo": "36",
+  "TableName": "Sales Header",
+  "Name": "Amt. Ship. Not Inv. (LCY)",
+  "SumFieldTable": "Sales Line",
+  "SumFieldName": "Shipped Not Invoiced (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

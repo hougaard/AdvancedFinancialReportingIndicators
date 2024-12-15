@@ -1,0 +1,18 @@
+{
+  "TableNo": "6753",
+  "TableName": "Reminder Action Group Log",
+  "Name": "Number of Errors",
+  "SumFieldTable": "Reminder Action Log",
+  "SumFieldName": "Total Errors",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Reminder Action Group ID",
+      "Type": "Static"
+    },
+    {
+      "Field": "Run Id",
+      "Type": "Static"
+    }
+  ]
+}

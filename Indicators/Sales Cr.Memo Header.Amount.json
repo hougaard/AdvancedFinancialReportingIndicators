@@ -1,0 +1,14 @@
+{
+  "TableNo": "114",
+  "TableName": "Sales Cr.Memo Header",
+  "Name": "Amount",
+  "SumFieldTable": "Sales Cr.Memo Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

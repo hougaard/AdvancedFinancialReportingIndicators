@@ -1,0 +1,28 @@
+{
+  "TableNo": "156",
+  "TableName": "Resource",
+  "Name": "Qty. on Assembly Order",
+  "SumFieldTable": "Assembly Line",
+  "SumFieldName": "Remaining Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static",
+      "Value": "Order"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "Resource"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Due Date",
+      "Type": "Column Period"
+    }
+  ]
+}

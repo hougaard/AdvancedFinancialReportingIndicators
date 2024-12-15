@@ -1,0 +1,40 @@
+{
+  "TableNo": "18",
+  "TableName": "Customer",
+  "Name": "Reminder Amounts (LCY)",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Initial Document Type",
+      "Type": "Static",
+      "Value": "Reminder"
+    },
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "\"Initial Entry\""
+    },
+    {
+      "Field": "Customer No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Initial Entry Global Dim. 1",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Initial Entry Global Dim. 2",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Currency Code",
+      "Type": "Static"
+    }
+  ]
+}

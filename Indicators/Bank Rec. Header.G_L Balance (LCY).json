@@ -1,0 +1,18 @@
+{
+  "TableNo": "10120",
+  "TableName": "Bank Rec. Header",
+  "Name": "G/L Balance (LCY)",
+  "SumFieldTable": "G/L Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "G/L Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

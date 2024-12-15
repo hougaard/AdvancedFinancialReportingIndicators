@@ -1,0 +1,18 @@
+{
+  "TableNo": "5135",
+  "TableName": "Job Archive",
+  "Name": "Calc. Recog. Sales Amount",
+  "SumFieldTable": "Job Task Archive",
+  "SumFieldName": "Recognized Sales Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Version No.",
+      "Type": "Static"
+    }
+  ]
+}

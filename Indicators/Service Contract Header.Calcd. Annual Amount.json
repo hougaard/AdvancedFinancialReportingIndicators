@@ -1,0 +1,18 @@
+{
+  "TableNo": "5965",
+  "TableName": "Service Contract Header",
+  "Name": "Calcd. Annual Amount",
+  "SumFieldTable": "Service Contract Line",
+  "SumFieldName": "Line Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Contract Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Contract No.",
+      "Type": "Static"
+    }
+  ]
+}

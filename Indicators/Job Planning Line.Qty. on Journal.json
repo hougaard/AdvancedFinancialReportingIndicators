@@ -1,0 +1,30 @@
+{
+  "TableNo": "1003",
+  "TableName": "Job Planning Line",
+  "Name": "Qty. on Journal",
+  "SumFieldTable": "Job Journal Line",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Job Task No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Job Planning Line No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    }
+  ]
+}

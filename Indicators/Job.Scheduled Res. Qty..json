@@ -1,0 +1,32 @@
+{
+  "TableNo": "167",
+  "TableName": "Job",
+  "Name": "Scheduled Res. Qty.",
+  "SumFieldTable": "Job Planning Line",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Schedule Line",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "Resource"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Planning Date",
+      "Type": "Column Period"
+    }
+  ]
+}

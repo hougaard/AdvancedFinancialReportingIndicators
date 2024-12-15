@@ -1,0 +1,24 @@
+{
+  "TableNo": "297",
+  "TableName": "Issued Reminder Header",
+  "Name": "Additional Fee",
+  "SumFieldTable": "Issued Reminder Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Reminder No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "\"G/L Account\""
+    },
+    {
+      "Field": "Line Type",
+      "Type": "Static",
+      "Value": "<> \"Not Due\""
+    }
+  ]
+}

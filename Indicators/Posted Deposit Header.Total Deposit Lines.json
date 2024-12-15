@@ -1,0 +1,14 @@
+{
+  "TableNo": "10143",
+  "TableName": "Posted Deposit Header",
+  "Name": "Total Deposit Lines",
+  "SumFieldTable": "Posted Deposit Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Deposit No.",
+      "Type": "Static"
+    }
+  ]
+}

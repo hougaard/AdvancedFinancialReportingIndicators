@@ -1,0 +1,14 @@
+{
+  "TableNo": "5992",
+  "TableName": "Service Invoice Header",
+  "Name": "Amount",
+  "SumFieldTable": "Service Invoice Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

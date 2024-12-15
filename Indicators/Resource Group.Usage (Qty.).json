@@ -1,0 +1,31 @@
+{
+  "TableNo": "152",
+  "TableName": "Resource Group",
+  "Name": "Usage (Qty.)",
+  "SumFieldTable": "Res. Ledger Entry",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "Usage"
+    },
+    {
+      "Field": "Chargeable",
+      "Type": "Static"
+    },
+    {
+      "Field": "Unit of Measure Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Resource Group No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

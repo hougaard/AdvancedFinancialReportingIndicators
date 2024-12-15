@@ -1,0 +1,22 @@
+{
+  "TableNo": "5965",
+  "TableName": "Service Contract Header",
+  "Name": "Contract Gain/Loss Amount",
+  "SumFieldTable": "Contract Gain/Loss Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Contract No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Reason Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Change Date",
+      "Type": "Column Period"
+    }
+  ]
+}

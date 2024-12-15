@@ -1,0 +1,18 @@
+{
+  "TableNo": "8622",
+  "TableName": "Config. Line",
+  "Name": "No. of Records (Source Table)",
+  "SumFieldTable": "Table Information",
+  "SumFieldName": "No. of Records",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Company Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Table No.",
+      "Type": "Static"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "TableNo": "114",
+  "TableName": "Sales Cr.Memo Header",
+  "Name": "Amount Including VAT",
+  "SumFieldTable": "Sales Cr.Memo Line",
+  "SumFieldName": "Amount Including VAT",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

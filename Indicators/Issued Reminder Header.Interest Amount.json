@@ -1,0 +1,29 @@
+{
+  "TableNo": "297",
+  "TableName": "Issued Reminder Header",
+  "Name": "Interest Amount",
+  "SumFieldTable": "Issued Reminder Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Reminder No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "\"Customer Ledger Entry\""
+    },
+    {
+      "Field": "Line Type",
+      "Type": "Static",
+      "Value": "\"Reminder Line\""
+    },
+    {
+      "Field": "Detailed Interest Rates Entry",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

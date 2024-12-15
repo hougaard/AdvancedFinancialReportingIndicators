@@ -1,0 +1,44 @@
+{
+  "TableNo": "6550",
+  "TableName": "Whse. Item Tracking Line",
+  "Name": "Put-away Qty. (Base)",
+  "SumFieldTable": "Warehouse Activity Line",
+  "SumFieldName": "Qty. Outstanding (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Activity Type",
+      "Type": "Static",
+      "Value": "\"Put-away\""
+    },
+    {
+      "Field": "Whse. Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Whse. Document No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Whse. Document Line No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Serial No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Lot No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Package No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Action Type",
+      "Type": "Static",
+      "Value": "\" \" | Take"
+    }
+  ]
+}

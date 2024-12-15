@@ -1,0 +1,37 @@
+{
+  "TableNo": "10123",
+  "TableName": "Posted Bank Rec. Header",
+  "Name": "Negative Adjustments",
+  "SumFieldTable": "Posted Bank Rec. Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Bank Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Statement No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Record Type",
+      "Type": "Static",
+      "Value": "Adjustment"
+    },
+    {
+      "Field": "Positive",
+      "Type": "Static",
+      "Value": "false"
+    },
+    {
+      "Field": "Account Type",
+      "Type": "Static",
+      "Value": "\"Bank Account\""
+    },
+    {
+      "Field": "Account No.",
+      "Type": "Static"
+    }
+  ]
+}

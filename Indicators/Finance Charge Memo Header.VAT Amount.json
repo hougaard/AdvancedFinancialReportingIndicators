@@ -1,0 +1,19 @@
+{
+  "TableNo": "302",
+  "TableName": "Finance Charge Memo Header",
+  "Name": "VAT Amount",
+  "SumFieldTable": "Finance Charge Memo Line",
+  "SumFieldName": "VAT Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Finance Charge Memo No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Detailed Interest Rates Entry",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

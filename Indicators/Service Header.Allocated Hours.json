@@ -1,0 +1,35 @@
+{
+  "TableNo": "5900",
+  "TableName": "Service Header",
+  "Name": "Allocated Hours",
+  "SumFieldTable": "Service Order Allocation",
+  "SumFieldName": "Allocated Hours",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Allocation Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Resource No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "Active | Finished"
+    },
+    {
+      "Field": "Resource Group No.",
+      "Type": "Static"
+    }
+  ]
+}

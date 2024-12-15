@@ -1,0 +1,28 @@
+{
+  "TableNo": "10123",
+  "TableName": "Posted Bank Rec. Header",
+  "Name": "Outstanding Checks",
+  "SumFieldTable": "Posted Bank Rec. Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Bank Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Statement No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Record Type",
+      "Type": "Static",
+      "Value": "Check"
+    },
+    {
+      "Field": "Cleared",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

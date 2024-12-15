@@ -1,0 +1,35 @@
+{
+  "TableNo": "5940",
+  "TableName": "Service Item",
+  "Name": "Total Quantity",
+  "SumFieldTable": "Service Ledger Entry",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "Usage"
+    },
+    {
+      "Field": "Service Item No. (Serviced)",
+      "Type": "Static"
+    },
+    {
+      "Field": "Service Contract No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Service Order No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

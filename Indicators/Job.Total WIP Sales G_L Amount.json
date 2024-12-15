@@ -1,0 +1,29 @@
+{
+  "TableNo": "167",
+  "TableName": "Job",
+  "Name": "Total WIP Sales G/L Amount",
+  "SumFieldTable": "Job WIP G/L Entry",
+  "SumFieldName": "WIP Entry Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Reversed",
+      "Type": "Static",
+      "Value": "false"
+    },
+    {
+      "Field": "Job Complete",
+      "Type": "Static",
+      "Value": "false"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "\"Accrued Sales\" | \"Applied Sales\" | \"Recognized Sales\""
+    }
+  ]
+}

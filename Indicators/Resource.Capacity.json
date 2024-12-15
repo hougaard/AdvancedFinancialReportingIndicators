@@ -1,0 +1,18 @@
+{
+  "TableNo": "156",
+  "TableName": "Resource",
+  "Name": "Capacity",
+  "SumFieldTable": "Res. Capacity Entry",
+  "SumFieldName": "Capacity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Resource No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    }
+  ]
+}

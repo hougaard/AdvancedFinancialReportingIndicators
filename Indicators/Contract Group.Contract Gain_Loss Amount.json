@@ -1,0 +1,18 @@
+{
+  "TableNo": "5966",
+  "TableName": "Contract Group",
+  "Name": "Contract Gain/Loss Amount",
+  "SumFieldTable": "Contract Gain/Loss Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Contract Group Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Change Date",
+      "Type": "Column Period"
+    }
+  ]
+}

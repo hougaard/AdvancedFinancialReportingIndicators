@@ -1,0 +1,27 @@
+{
+  "TableNo": "37",
+  "TableName": "Sales Line",
+  "Name": "Whse. Outstanding Qty. (Base)",
+  "SumFieldTable": "Warehouse Shipment Line",
+  "SumFieldName": "Qty. Outstanding (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "37"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Line No.",
+      "Type": "Static"
+    }
+  ]
+}

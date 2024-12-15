@@ -1,0 +1,33 @@
+{
+  "TableNo": "156",
+  "TableName": "Resource",
+  "Name": "Qty. on Order (Job)",
+  "SumFieldTable": "Job Planning Line",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "Order"
+    },
+    {
+      "Field": "Schedule Line",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "Resource"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Planning Date",
+      "Type": "Column Period"
+    }
+  ]
+}
