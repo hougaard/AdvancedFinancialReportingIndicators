@@ -1,0 +1,19 @@
+{
+  "TableNo": "9069",
+  "TableName": "O365 Sales Cue",
+  "Name": "Invoiced YTD",
+  "SumFieldTable": "Sales Invoice Entity Aggregate",
+  "SumFieldName": "Amount Including VAT",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "Open | Paid"
+    }
+  ]
+}

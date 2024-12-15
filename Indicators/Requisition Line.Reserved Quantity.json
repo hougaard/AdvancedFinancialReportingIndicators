@@ -1,0 +1,42 @@
+{
+  "TableNo": "246",
+  "TableName": "Requisition Line",
+  "Name": "Reserved Quantity",
+  "SumFieldTable": "Reservation Entry",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Source ID",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Ref. No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "246"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static",
+      "Value": "\"0\""
+    },
+    {
+      "Field": "Source Batch Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Prod. Order Line",
+      "Type": "Static",
+      "Value": "0"
+    },
+    {
+      "Field": "Reservation Status",
+      "Type": "Static",
+      "Value": "Reservation"
+    }
+  ]
+}

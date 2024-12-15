@@ -1,0 +1,28 @@
+{
+  "TableNo": "5063",
+  "TableName": "Interaction Group",
+  "Name": "Duration (Min.)",
+  "SumFieldTable": "Interaction Log Entry",
+  "SumFieldName": "Duration (Min.)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Interaction Group Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Canceled",
+      "Type": "Static",
+      "Value": "false"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Postponed",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

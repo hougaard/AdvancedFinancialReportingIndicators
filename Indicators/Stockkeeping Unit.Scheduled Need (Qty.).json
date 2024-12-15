@@ -1,0 +1,39 @@
+{
+  "TableNo": "5700",
+  "TableName": "Stockkeeping Unit",
+  "Name": "Scheduled Need (Qty.)",
+  "SumFieldTable": "Prod. Order Component",
+  "SumFieldName": "Remaining Qty. (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "Planned .. Released"
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Shortcut Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Shortcut Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Due Date",
+      "Type": "Column Period"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "TableNo": "4",
+  "TableName": "Currency",
+  "Name": "Customer Balance Due",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Customer No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Initial Entry Global Dim. 1",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Initial Entry Global Dim. 2",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Initial Entry Due Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Currency Code",
+      "Type": "Static"
+    }
+  ]
+}

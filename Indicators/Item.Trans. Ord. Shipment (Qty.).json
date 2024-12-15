@@ -1,0 +1,43 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Trans. Ord. Shipment (Qty.)",
+  "SumFieldTable": "Transfer Line",
+  "SumFieldName": "Outstanding Qty. (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Derived From Line No.",
+      "Type": "Static",
+      "Value": "0"
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Transfer-from Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Shortcut Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Shortcut Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Shipment Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Unit of Measure Code",
+      "Type": "Static"
+    }
+  ]
+}

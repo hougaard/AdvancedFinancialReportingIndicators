@@ -1,0 +1,14 @@
+{
+  "TableNo": "122",
+  "TableName": "Purch. Inv. Header",
+  "Name": "Amount",
+  "SumFieldTable": "Purch. Inv. Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

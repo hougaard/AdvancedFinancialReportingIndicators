@@ -1,0 +1,23 @@
+{
+  "TableNo": "5628",
+  "TableName": "Insurance",
+  "Name": "Total Value Insured",
+  "SumFieldTable": "Ins. Coverage Ledger Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Insurance No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Disposed FA",
+      "Type": "Static",
+      "Value": "false"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

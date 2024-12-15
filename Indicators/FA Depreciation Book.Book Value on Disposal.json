@@ -1,0 +1,32 @@
+{
+  "TableNo": "5612",
+  "TableName": "FA Depreciation Book",
+  "Name": "Book Value on Disposal",
+  "SumFieldTable": "FA Ledger Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "FA No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Depreciation Book Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "FA Posting Category",
+      "Type": "Static",
+      "Value": "Disposal"
+    },
+    {
+      "Field": "FA Posting Type",
+      "Type": "Static",
+      "Value": "\"Book Value on Disposal\""
+    },
+    {
+      "Field": "FA Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

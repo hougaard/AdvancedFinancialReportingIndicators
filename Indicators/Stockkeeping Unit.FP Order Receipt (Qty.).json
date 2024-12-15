@@ -1,0 +1,39 @@
+{
+  "TableNo": "5700",
+  "TableName": "Stockkeeping Unit",
+  "Name": "FP Order Receipt (Qty.)",
+  "SumFieldTable": "Prod. Order Line",
+  "SumFieldName": "Remaining Qty. (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "\"Firm Planned\""
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Shortcut Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Shortcut Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Ending Date",
+      "Type": "Column Period"
+    }
+  ]
+}

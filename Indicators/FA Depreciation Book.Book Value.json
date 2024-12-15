@@ -1,0 +1,27 @@
+{
+  "TableNo": "5612",
+  "TableName": "FA Depreciation Book",
+  "Name": "Book Value",
+  "SumFieldTable": "FA Ledger Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "FA No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Depreciation Book Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Part of Book Value",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "FA Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

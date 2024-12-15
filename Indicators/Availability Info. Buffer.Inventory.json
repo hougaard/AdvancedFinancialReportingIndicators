@@ -1,0 +1,31 @@
+{
+  "TableNo": "520",
+  "TableName": "Availability Info. Buffer",
+  "Name": "Inventory",
+  "SumFieldTable": "Item Ledger Entry",
+  "SumFieldName": "Remaining Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Open",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Lot No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    }
+  ]
+}

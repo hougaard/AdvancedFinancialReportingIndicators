@@ -1,0 +1,34 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Prod. Forecast Quantity (Base)",
+  "SumFieldTable": "Production Forecast Entry",
+  "SumFieldName": "Forecast Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Production Forecast Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Forecast Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Component Forecast",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    }
+  ]
+}

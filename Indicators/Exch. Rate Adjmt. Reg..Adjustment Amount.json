@@ -1,0 +1,14 @@
+{
+  "TableNo": "86",
+  "TableName": "Exch. Rate Adjmt. Reg.",
+  "Name": "Adjustment Amount",
+  "SumFieldTable": "Exch. Rate Adjmt. Ledg. Entry",
+  "SumFieldName": "Adjustment Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Register No.",
+      "Type": "Static"
+    }
+  ]
+}

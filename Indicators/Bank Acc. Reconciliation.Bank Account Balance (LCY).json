@@ -1,0 +1,14 @@
+{
+  "TableNo": "273",
+  "TableName": "Bank Acc. Reconciliation",
+  "Name": "Bank Account Balance (LCY)",
+  "SumFieldTable": "Bank Account Ledger Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Bank Account No.",
+      "Type": "Static"
+    }
+  ]
+}

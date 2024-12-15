@@ -1,0 +1,22 @@
+{
+  "TableNo": "246",
+  "TableName": "Requisition Line",
+  "Name": "Expected Operation Cost Amt.",
+  "SumFieldTable": "Planning Routing Line",
+  "SumFieldName": "Expected Operation Cost Amt.",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Worksheet Template Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Worksheet Batch Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Worksheet Line No.",
+      "Type": "Static"
+    }
+  ]
+}

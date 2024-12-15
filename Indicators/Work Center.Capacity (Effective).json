@@ -1,0 +1,27 @@
+{
+  "TableNo": "99000754",
+  "TableName": "Work Center",
+  "Name": "Capacity (Effective)",
+  "SumFieldTable": "Calendar Entry",
+  "SumFieldName": "Capacity (Effective)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Capacity Type",
+      "Type": "Static",
+      "Value": "\"Work Center\""
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Work Shift Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    }
+  ]
+}

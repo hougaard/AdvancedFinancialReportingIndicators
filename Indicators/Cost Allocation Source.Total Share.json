@@ -1,0 +1,14 @@
+{
+  "TableNo": "1106",
+  "TableName": "Cost Allocation Source",
+  "Name": "Total Share",
+  "SumFieldTable": "Cost Allocation Target",
+  "SumFieldName": "Share",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "ID",
+      "Type": "Static"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "TableNo": "99000866",
+  "TableName": "Capacity Constrained Resource",
+  "Name": "Prod. Order Need Qty.",
+  "SumFieldTable": "Prod. Order Capacity Need",
+  "SumFieldName": "Allocated Time",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    }
+  ]
+}

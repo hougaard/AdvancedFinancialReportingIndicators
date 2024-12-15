@@ -1,0 +1,58 @@
+{
+  "TableNo": "5821",
+  "TableName": "Item Statistics Buffer",
+  "Name": "Budgeted Quantity",
+  "SumFieldTable": "Item Budget Entry",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Analysis Area",
+      "Type": "Static"
+    },
+    {
+      "Field": "Budget Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Global Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Global Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Budget Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Budget Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Budget Dimension 3 Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    }
+  ]
+}

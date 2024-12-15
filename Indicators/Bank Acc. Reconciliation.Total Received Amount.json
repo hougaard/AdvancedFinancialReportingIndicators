@@ -1,0 +1,27 @@
+{
+  "TableNo": "273",
+  "TableName": "Bank Acc. Reconciliation",
+  "Name": "Total Received Amount",
+  "SumFieldTable": "Bank Acc. Reconciliation Line",
+  "SumFieldName": "Statement Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Statement Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Bank Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Statement No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Statement Amount",
+      "Type": "Static",
+      "Value": "> 0"
+    }
+  ]
+}

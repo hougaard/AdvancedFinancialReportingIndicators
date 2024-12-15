@@ -1,0 +1,26 @@
+{
+  "TableNo": "99000866",
+  "TableName": "Capacity Constrained Resource",
+  "Name": "Capacity (Effective)",
+  "SumFieldTable": "Calendar Entry",
+  "SumFieldName": "Capacity (Effective)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Capacity Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Work Shift Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    }
+  ]
+}

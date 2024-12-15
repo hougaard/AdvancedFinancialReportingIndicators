@@ -1,0 +1,38 @@
+{
+  "TableNo": "5741",
+  "TableName": "Transfer Line",
+  "Name": "Reserved Qty. Shipped (Base)",
+  "SumFieldTable": "Reservation Entry",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Source ID",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Ref. No.",
+      "Type": "Static",
+      "Value": "<> 0"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "5741"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static",
+      "Value": "\"1\""
+    },
+    {
+      "Field": "Source Prod. Order Line",
+      "Type": "Static"
+    },
+    {
+      "Field": "Reservation Status",
+      "Type": "Static",
+      "Value": "Reservation"
+    }
+  ]
+}

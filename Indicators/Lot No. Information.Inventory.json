@@ -1,0 +1,26 @@
+{
+  "TableNo": "6505",
+  "TableName": "Lot No. Information",
+  "Name": "Inventory",
+  "SumFieldTable": "Item Ledger Entry",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Lot No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    }
+  ]
+}

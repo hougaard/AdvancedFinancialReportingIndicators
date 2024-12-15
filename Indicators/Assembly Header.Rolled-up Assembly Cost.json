@@ -1,0 +1,23 @@
+{
+  "TableNo": "900",
+  "TableName": "Assembly Header",
+  "Name": "Rolled-up Assembly Cost",
+  "SumFieldTable": "Assembly Line",
+  "SumFieldName": "Cost Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "Item | Resource"
+    }
+  ]
+}

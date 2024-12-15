@@ -1,0 +1,27 @@
+{
+  "TableNo": "1112",
+  "TableName": "Cost Center",
+  "Name": "Balance to Allocate",
+  "SumFieldTable": "Cost Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Cost Center Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cost Type No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Allocated",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

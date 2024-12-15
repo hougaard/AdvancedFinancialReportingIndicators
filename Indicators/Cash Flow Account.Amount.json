@@ -1,0 +1,30 @@
+{
+  "TableNo": "841",
+  "TableName": "Cash Flow Account",
+  "Name": "Amount",
+  "SumFieldTable": "Cash Flow Forecast Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Cash Flow Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cash Flow Forecast No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cash Flow Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Global Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Global Dimension 2 Code",
+      "Type": "Global Dim 2"
+    }
+  ]
+}

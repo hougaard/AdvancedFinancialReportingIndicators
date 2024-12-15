@@ -1,0 +1,14 @@
+{
+  "TableNo": "122",
+  "TableName": "Purch. Inv. Header",
+  "Name": "Amount Including VAT",
+  "SumFieldTable": "Purch. Inv. Line",
+  "SumFieldName": "Amount Including VAT",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

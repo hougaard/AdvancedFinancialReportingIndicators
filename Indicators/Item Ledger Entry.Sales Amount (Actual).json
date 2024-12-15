@@ -1,0 +1,14 @@
+{
+  "TableNo": "32",
+  "TableName": "Item Ledger Entry",
+  "Name": "Sales Amount (Actual)",
+  "SumFieldTable": "Value Entry",
+  "SumFieldName": "Sales Amount (Actual)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item Ledger Entry No.",
+      "Type": "Static"
+    }
+  ]
+}

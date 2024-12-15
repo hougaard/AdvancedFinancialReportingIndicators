@@ -1,0 +1,41 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Res. Qty. on Sales Returns",
+  "SumFieldTable": "Reservation Entry",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "37"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static",
+      "Value": "\"5\""
+    },
+    {
+      "Field": "Reservation Status",
+      "Type": "Static",
+      "Value": "Reservation"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Shipment Date",
+      "Type": "Column Period"
+    }
+  ]
+}

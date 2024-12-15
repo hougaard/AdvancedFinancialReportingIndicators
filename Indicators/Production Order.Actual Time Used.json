@@ -1,0 +1,31 @@
+{
+  "TableNo": "5405",
+  "TableName": "Production Order",
+  "Name": "Actual Time Used",
+  "SumFieldTable": "Capacity Ledger Entry",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Order Type",
+      "Type": "Static",
+      "Value": "Production"
+    },
+    {
+      "Field": "Order No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

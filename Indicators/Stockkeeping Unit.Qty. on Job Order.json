@@ -1,0 +1,36 @@
+{
+  "TableNo": "5700",
+  "TableName": "Stockkeeping Unit",
+  "Name": "Qty. on Job Order",
+  "SumFieldTable": "Job Planning Line",
+  "SumFieldName": "Remaining Qty. (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "Order"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "Item"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Planning Date",
+      "Type": "Column Period"
+    }
+  ]
+}

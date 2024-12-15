@@ -1,0 +1,34 @@
+{
+  "TableNo": "1701",
+  "TableName": "Deferral Header",
+  "Name": "Schedule Line Total",
+  "SumFieldTable": "Deferral Line",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Deferral Doc. Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Gen. Jnl. Template Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Gen. Jnl. Batch Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Line No.",
+      "Type": "Static"
+    }
+  ]
+}

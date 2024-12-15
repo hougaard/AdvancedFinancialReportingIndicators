@@ -1,0 +1,31 @@
+{
+  "TableNo": "23",
+  "TableName": "Vendor",
+  "Name": "Outstanding Orders",
+  "SumFieldTable": "Purchase Line",
+  "SumFieldName": "Outstanding Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static",
+      "Value": "Order"
+    },
+    {
+      "Field": "Pay-to Vendor No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Shortcut Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Shortcut Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Currency Code",
+      "Type": "Static"
+    }
+  ]
+}

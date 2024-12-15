@@ -1,0 +1,31 @@
+{
+  "TableNo": "367",
+  "TableName": "Dimension Code Buffer",
+  "Name": "Amount",
+  "SumFieldTable": "Analysis View Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Analysis View Code",
+      "Type": "Static",
+      "Value": "''"
+    },
+    {
+      "Field": "Dimension 1 Value Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Dimension 2 Value Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Dimension 3 Value Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Dimension 4 Value Code",
+      "Type": "Static"
+    }
+  ]
+}

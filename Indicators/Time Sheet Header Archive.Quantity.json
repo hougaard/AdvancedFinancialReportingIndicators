@@ -1,0 +1,38 @@
+{
+  "TableNo": "954",
+  "TableName": "Time Sheet Header Archive",
+  "Name": "Quantity",
+  "SumFieldTable": "Time Sheet Detail Archive",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Time Sheet No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Status",
+      "Type": "Static"
+    },
+    {
+      "Field": "Job No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Job Task No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Posted",
+      "Type": "Static"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static"
+    }
+  ]
+}

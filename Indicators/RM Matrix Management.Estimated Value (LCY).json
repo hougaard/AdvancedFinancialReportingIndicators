@@ -1,0 +1,71 @@
+{
+  "TableNo": "5102",
+  "TableName": "RM Matrix Management",
+  "Name": "Estimated Value (LCY)",
+  "SumFieldTable": "Opportunity Entry",
+  "SumFieldName": "Estimated Value (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Active",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Salesperson Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Campaign No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Contact No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Contact Company No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Estimated Close Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Action Taken",
+      "Type": "Static"
+    },
+    {
+      "Field": "Sales Cycle Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Sales Cycle Stage",
+      "Type": "Static"
+    },
+    {
+      "Field": "Probability %",
+      "Type": "Static"
+    },
+    {
+      "Field": "Completed %",
+      "Type": "Static"
+    },
+    {
+      "Field": "Chances of Success %",
+      "Type": "Static"
+    },
+    {
+      "Field": "Close Opportunity Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Estimated Value (LCY)",
+      "Type": "Static"
+    },
+    {
+      "Field": "Calcd. Current Value (LCY)",
+      "Type": "Static"
+    }
+  ]
+}

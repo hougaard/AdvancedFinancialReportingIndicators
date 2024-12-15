@@ -1,0 +1,39 @@
+{
+  "TableNo": "5405",
+  "TableName": "Production Order",
+  "Name": "Allocated Capacity Need",
+  "SumFieldTable": "Prod. Order Capacity Need",
+  "SumFieldName": "Needed Time",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static"
+    },
+    {
+      "Field": "Prod. Order No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Work Center No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Requested Only",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

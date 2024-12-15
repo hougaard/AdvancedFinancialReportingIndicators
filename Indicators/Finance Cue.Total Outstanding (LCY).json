@@ -1,0 +1,9 @@
+{
+  "TableNo": "9054",
+  "TableName": "Finance Cue",
+  "Name": "Total Outstanding (LCY)",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": []
+}

@@ -1,0 +1,56 @@
+{
+  "TableNo": "901",
+  "TableName": "Assembly Line",
+  "Name": "Pick Qty.",
+  "SumFieldTable": "Warehouse Activity Line",
+  "SumFieldName": "Qty. Outstanding",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Activity Type",
+      "Type": "Static",
+      "Value": "<> \"Put-away\""
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "901"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Line No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Subline No.",
+      "Type": "Static",
+      "Value": "0"
+    },
+    {
+      "Field": "Unit of Measure Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Action Type",
+      "Type": "Static",
+      "Value": "\" \" | Place"
+    },
+    {
+      "Field": "Original Breakbulk",
+      "Type": "Static",
+      "Value": "false"
+    },
+    {
+      "Field": "Breakbulk No.",
+      "Type": "Static",
+      "Value": "0"
+    }
+  ]
+}

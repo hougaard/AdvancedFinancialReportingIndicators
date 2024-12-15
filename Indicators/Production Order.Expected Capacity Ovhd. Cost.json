@@ -1,0 +1,18 @@
+{
+  "TableNo": "5405",
+  "TableName": "Production Order",
+  "Name": "Expected Capacity Ovhd. Cost",
+  "SumFieldTable": "Prod. Order Routing Line",
+  "SumFieldName": "Expected Capacity Ovhd. Cost",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static"
+    },
+    {
+      "Field": "Prod. Order No.",
+      "Type": "Static"
+    }
+  ]
+}

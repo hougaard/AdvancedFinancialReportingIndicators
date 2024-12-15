@@ -1,0 +1,40 @@
+{
+  "TableNo": "23",
+  "TableName": "Vendor",
+  "Name": "Cr. Memo Amounts",
+  "SumFieldTable": "Detailed Vendor Ledg. Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Initial Document Type",
+      "Type": "Static",
+      "Value": "\"Credit Memo\""
+    },
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "\"Initial Entry\""
+    },
+    {
+      "Field": "Vendor No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Initial Entry Global Dim. 1",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Initial Entry Global Dim. 2",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Currency Code",
+      "Type": "Static"
+    }
+  ]
+}

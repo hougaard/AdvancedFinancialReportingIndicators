@@ -1,0 +1,46 @@
+{
+  "TableNo": "376",
+  "TableName": "G/L Account (Analysis View)",
+  "Name": "Budgeted at Date",
+  "SumFieldTable": "Analysis View Budget Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Analysis View Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Budget Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Business Unit Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "G/L Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Dimension 1 Value Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Dimension 2 Value Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Dimension 3 Value Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Dimension 4 Value Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

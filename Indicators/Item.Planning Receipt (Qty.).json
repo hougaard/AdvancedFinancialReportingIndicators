@@ -1,0 +1,43 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Planning Receipt (Qty.)",
+  "SumFieldTable": "Requisition Line",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "Item"
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Due Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Shortcut Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Shortcut Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Unit of Measure Code",
+      "Type": "Static"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "TableNo": "5741",
+  "TableName": "Transfer Line",
+  "Name": "Whse. Inbnd. Otsdg. Qty (Base)",
+  "SumFieldTable": "Warehouse Receipt Line",
+  "SumFieldName": "Qty. Outstanding (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "5741"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static",
+      "Value": "\"1\""
+    },
+    {
+      "Field": "Source No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Line No.",
+      "Type": "Static"
+    }
+  ]
+}

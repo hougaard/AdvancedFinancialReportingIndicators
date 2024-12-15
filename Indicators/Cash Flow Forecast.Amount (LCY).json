@@ -1,0 +1,30 @@
+{
+  "TableNo": "840",
+  "TableName": "Cash Flow Forecast",
+  "Name": "Amount (LCY)",
+  "SumFieldTable": "Cash Flow Forecast Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Cash Flow Forecast No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cash Flow Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cash Flow Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Positive",
+      "Type": "Static"
+    }
+  ]
+}

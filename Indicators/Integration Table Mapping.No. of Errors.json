@@ -1,0 +1,14 @@
+{
+  "TableNo": "5335",
+  "TableName": "Integration Table Mapping",
+  "Name": "No. of Errors",
+  "SumFieldTable": "Integration Synch. Job",
+  "SumFieldName": "Failed",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Integration Table Mapping Name",
+      "Type": "Static"
+    }
+  ]
+}

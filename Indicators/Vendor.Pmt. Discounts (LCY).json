@@ -1,0 +1,35 @@
+{
+  "TableNo": "23",
+  "TableName": "Vendor",
+  "Name": "Pmt. Discounts (LCY)",
+  "SumFieldTable": "Detailed Vendor Ledg. Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Vendor No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "\"Payment Discount\" .. \"Payment Discount (VAT Adjustment)\""
+    },
+    {
+      "Field": "Initial Entry Global Dim. 1",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Initial Entry Global Dim. 2",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Currency Code",
+      "Type": "Static"
+    }
+  ]
+}

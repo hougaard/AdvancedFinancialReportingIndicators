@@ -1,0 +1,43 @@
+{
+  "TableNo": "13",
+  "TableName": "Salesperson/Purchaser",
+  "Name": "Estimated Value (LCY)",
+  "SumFieldTable": "Opportunity Entry",
+  "SumFieldName": "Estimated Value (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Salesperson Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Active",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Estimated Close Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Action Taken",
+      "Type": "Static"
+    },
+    {
+      "Field": "Sales Cycle Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Sales Cycle Stage",
+      "Type": "Static"
+    },
+    {
+      "Field": "Probability %",
+      "Type": "Static"
+    },
+    {
+      "Field": "Completed %",
+      "Type": "Static"
+    }
+  ]
+}

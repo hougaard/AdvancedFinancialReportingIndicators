@@ -1,0 +1,14 @@
+{
+  "TableNo": "2107",
+  "TableName": "O365 Customer",
+  "Name": "Balance (LCY)",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Customer No.",
+      "Type": "Static"
+    }
+  ]
+}

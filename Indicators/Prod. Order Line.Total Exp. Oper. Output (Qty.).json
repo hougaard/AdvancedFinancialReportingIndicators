@@ -1,0 +1,30 @@
+{
+  "TableNo": "5406",
+  "TableName": "Prod. Order Line",
+  "Name": "Total Exp. Oper. Output (Qty.)",
+  "SumFieldTable": "Prod. Order Line",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static"
+    },
+    {
+      "Field": "Prod. Order No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Routing No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Routing Reference No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Ending Date",
+      "Type": "Column Period"
+    }
+  ]
+}

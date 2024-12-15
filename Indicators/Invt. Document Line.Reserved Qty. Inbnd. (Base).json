@@ -1,0 +1,33 @@
+{
+  "TableNo": "5851",
+  "TableName": "Invt. Document Line",
+  "Name": "Reserved Qty. Inbnd. (Base)",
+  "SumFieldTable": "Reservation Entry",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Source ID",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Ref. No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "5851"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static",
+      "Value": "\"0\" | \"3\""
+    },
+    {
+      "Field": "Reservation Status",
+      "Type": "Static",
+      "Value": "Reservation"
+    }
+  ]
+}

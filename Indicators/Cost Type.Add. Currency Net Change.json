@@ -1,0 +1,26 @@
+{
+  "TableNo": "1103",
+  "TableName": "Cost Type",
+  "Name": "Add. Currency Net Change",
+  "SumFieldTable": "Cost Entry",
+  "SumFieldName": "Additional-Currency Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Cost Type No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cost Center Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cost Object Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

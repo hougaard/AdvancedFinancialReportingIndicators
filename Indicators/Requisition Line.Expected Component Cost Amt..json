@@ -1,0 +1,22 @@
+{
+  "TableNo": "246",
+  "TableName": "Requisition Line",
+  "Name": "Expected Component Cost Amt.",
+  "SumFieldTable": "Planning Component",
+  "SumFieldName": "Cost Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Worksheet Template Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Worksheet Batch Name",
+      "Type": "Static"
+    },
+    {
+      "Field": "Worksheet Line No.",
+      "Type": "Static"
+    }
+  ]
+}

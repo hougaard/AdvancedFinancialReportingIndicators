@@ -1,0 +1,32 @@
+{
+  "TableNo": "39",
+  "TableName": "Purchase Line",
+  "Name": "Reserved Quantity",
+  "SumFieldTable": "Reservation Entry",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Source ID",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Ref. No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "39"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static"
+    },
+    {
+      "Field": "Reservation Status",
+      "Type": "Static",
+      "Value": "Reservation"
+    }
+  ]
+}

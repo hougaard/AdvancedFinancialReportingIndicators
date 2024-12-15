@@ -1,0 +1,26 @@
+{
+  "TableNo": "5406",
+  "TableName": "Prod. Order Line",
+  "Name": "Expected Component Cost Amt.",
+  "SumFieldTable": "Prod. Order Component",
+  "SumFieldName": "Cost Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static"
+    },
+    {
+      "Field": "Prod. Order No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Prod. Order Line No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Due Date",
+      "Type": "Column Period"
+    }
+  ]
+}

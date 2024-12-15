@@ -1,0 +1,14 @@
+{
+  "TableNo": "5076",
+  "TableName": "Segment Header",
+  "Name": "Duration (Min.)",
+  "SumFieldTable": "Segment Line",
+  "SumFieldName": "Duration (Min.)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Segment No.",
+      "Type": "Static"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "TableNo": "5072",
+  "TableName": "Campaign Entry",
+  "Name": "Cost (LCY)",
+  "SumFieldTable": "Interaction Log Entry",
+  "SumFieldName": "Cost (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Campaign No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Campaign Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Canceled",
+      "Type": "Static"
+    }
+  ]
+}

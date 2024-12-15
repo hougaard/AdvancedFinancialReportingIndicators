@@ -1,0 +1,19 @@
+{
+  "TableNo": "337",
+  "TableName": "Reservation Entry",
+  "Name": "Action Message Adjustment",
+  "SumFieldTable": "Action Message Entry",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Reservation Entry",
+      "Type": "Static"
+    },
+    {
+      "Field": "Calculation",
+      "Type": "Static",
+      "Value": "Sum"
+    }
+  ]
+}

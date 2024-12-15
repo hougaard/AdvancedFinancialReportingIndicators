@@ -1,0 +1,23 @@
+{
+  "TableNo": "99000758",
+  "TableName": "Machine Center",
+  "Name": "Prod. Order Need Amount",
+  "SumFieldTable": "Prod. Order Routing Line",
+  "SumFieldName": "Expected Operation Cost Amt.",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Type",
+      "Type": "Static",
+      "Value": "\"Machine Center\""
+    },
+    {
+      "Field": "No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Status",
+      "Type": "Static"
+    }
+  ]
+}

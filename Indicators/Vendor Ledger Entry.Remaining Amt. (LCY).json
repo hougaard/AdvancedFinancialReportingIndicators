@@ -1,0 +1,18 @@
+{
+  "TableNo": "25",
+  "TableName": "Vendor Ledger Entry",
+  "Name": "Remaining Amt. (LCY)",
+  "SumFieldTable": "Detailed Vendor Ledg. Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Vendor Ledger Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "TableNo": "5821",
+  "TableName": "Item Statistics Buffer",
+  "Name": "Sales Amount (Actual)",
+  "SumFieldTable": "Value Entry",
+  "SumFieldName": "Sales Amount (Actual)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Item Ledger Entry Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Entry Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variance Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Global Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Global Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Item Charge No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source No.",
+      "Type": "Static"
+    }
+  ]
+}

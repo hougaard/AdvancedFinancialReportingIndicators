@@ -1,0 +1,45 @@
+{
+  "TableNo": "520",
+  "TableName": "Availability Info. Buffer",
+  "Name": "Planned Order Receipt (Qty.)",
+  "SumFieldTable": "Reservation Entry",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "5406"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static",
+      "Value": "\"1\""
+    },
+    {
+      "Field": "Reservation Status",
+      "Type": "Static",
+      "Value": "Prospect"
+    },
+    {
+      "Field": "Lot No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Expected Receipt Date",
+      "Type": "Column Period"
+    }
+  ]
+}

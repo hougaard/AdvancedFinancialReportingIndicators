@@ -1,0 +1,14 @@
+{
+  "TableNo": "5076",
+  "TableName": "Segment Header",
+  "Name": "Cost (LCY)",
+  "SumFieldTable": "Segment Line",
+  "SumFieldName": "Cost (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Segment No.",
+      "Type": "Static"
+    }
+  ]
+}

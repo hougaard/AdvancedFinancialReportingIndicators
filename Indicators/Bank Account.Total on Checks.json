@@ -1,0 +1,24 @@
+{
+  "TableNo": "270",
+  "TableName": "Bank Account",
+  "Name": "Total on Checks",
+  "SumFieldTable": "Check Ledger Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Bank Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Entry Status",
+      "Type": "Static",
+      "Value": "Posted"
+    },
+    {
+      "Field": "Statement Status",
+      "Type": "Static",
+      "Value": "<> Closed"
+    }
+  ]
+}

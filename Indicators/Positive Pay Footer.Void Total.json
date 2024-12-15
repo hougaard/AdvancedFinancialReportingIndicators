@@ -1,0 +1,19 @@
+{
+  "TableNo": "1242",
+  "TableName": "Positive Pay Footer",
+  "Name": "Void Total",
+  "SumFieldTable": "Positive Pay Detail",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Void Check Indicator",
+      "Type": "Static",
+      "Value": "'V'"
+    },
+    {
+      "Field": "Data Exch. Entry No.",
+      "Type": "Static"
+    }
+  ]
+}

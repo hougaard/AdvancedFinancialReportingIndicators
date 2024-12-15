@@ -1,0 +1,26 @@
+{
+  "TableNo": "5612",
+  "TableName": "FA Depreciation Book",
+  "Name": "Maintenance",
+  "SumFieldTable": "Maintenance Ledger Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "FA No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Depreciation Book Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Maintenance Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "FA Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

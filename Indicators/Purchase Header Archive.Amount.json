@@ -1,0 +1,26 @@
+{
+  "TableNo": "5109",
+  "TableName": "Purchase Header Archive",
+  "Name": "Amount",
+  "SumFieldTable": "Purchase Line Archive",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Doc. No. Occurrence",
+      "Type": "Static"
+    },
+    {
+      "Field": "Version No.",
+      "Type": "Static"
+    }
+  ]
+}

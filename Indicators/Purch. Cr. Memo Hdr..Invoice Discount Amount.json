@@ -1,0 +1,14 @@
+{
+  "TableNo": "124",
+  "TableName": "Purch. Cr. Memo Hdr.",
+  "Name": "Invoice Discount Amount",
+  "SumFieldTable": "Purch. Cr. Memo Line",
+  "SumFieldName": "Inv. Discount Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

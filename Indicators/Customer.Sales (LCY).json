@@ -1,0 +1,30 @@
+{
+  "TableNo": "18",
+  "TableName": "Customer",
+  "Name": "Sales (LCY)",
+  "SumFieldTable": "Cust. Ledger Entry",
+  "SumFieldName": "Sales (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Customer No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Global Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Global Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Currency Code",
+      "Type": "Static"
+    }
+  ]
+}

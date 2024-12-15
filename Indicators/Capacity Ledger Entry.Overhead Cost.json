@@ -1,0 +1,19 @@
+{
+  "TableNo": "5832",
+  "TableName": "Capacity Ledger Entry",
+  "Name": "Overhead Cost",
+  "SumFieldTable": "Value Entry",
+  "SumFieldName": "Cost Amount (Actual)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Capacity Ledger Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "\"Indirect Cost\""
+    }
+  ]
+}

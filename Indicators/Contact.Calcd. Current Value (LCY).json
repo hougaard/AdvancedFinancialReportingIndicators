@@ -1,0 +1,31 @@
+{
+  "TableNo": "5050",
+  "TableName": "Contact",
+  "Name": "Calcd. Current Value (LCY)",
+  "SumFieldTable": "Opportunity Entry",
+  "SumFieldName": "Calcd. Current Value (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Active",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Contact Company No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Estimated Close Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Contact No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Action Taken",
+      "Type": "Static"
+    }
+  ]
+}

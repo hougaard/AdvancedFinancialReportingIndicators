@@ -1,0 +1,40 @@
+{
+  "TableNo": "6505",
+  "TableName": "Lot No. Information",
+  "Name": "Expired Inventory",
+  "SumFieldTable": "Item Ledger Entry",
+  "SumFieldName": "Remaining Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Lot No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Expiration Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Open",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Positive",
+      "Type": "Static",
+      "Value": "true"
+    }
+  ]
+}

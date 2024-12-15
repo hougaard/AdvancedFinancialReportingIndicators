@@ -1,0 +1,58 @@
+{
+  "TableNo": "5821",
+  "TableName": "Item Statistics Buffer",
+  "Name": "Analysis - Sales Amt. (Exp)",
+  "SumFieldTable": "Item Analysis View Entry",
+  "SumFieldName": "Sales Amount (Expected)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Analysis Area",
+      "Type": "Static"
+    },
+    {
+      "Field": "Analysis View Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Dimension 1 Value Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Dimension 2 Value Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Dimension 3 Value Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Item Ledger Entry Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Entry Type",
+      "Type": "Static"
+    }
+  ]
+}

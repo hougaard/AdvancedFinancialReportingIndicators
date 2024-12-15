@@ -1,0 +1,50 @@
+{
+  "TableNo": "376",
+  "TableName": "G/L Account (Analysis View)",
+  "Name": "Credit Amount",
+  "SumFieldTable": "Analysis View Entry",
+  "SumFieldName": "Credit Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Analysis View Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Business Unit Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Account Source",
+      "Type": "Static"
+    },
+    {
+      "Field": "Dimension 1 Value Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Dimension 2 Value Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Dimension 3 Value Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Dimension 4 Value Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Cash Flow Forecast No.",
+      "Type": "Static"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Purchases (LCY)",
+  "SumFieldTable": "Value Entry",
+  "SumFieldName": "Purchase Amount (Actual)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item Ledger Entry Type",
+      "Type": "Static",
+      "Value": "Purchase"
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Global Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Global Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Drop Shipment",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

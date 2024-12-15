@@ -1,0 +1,32 @@
+{
+  "TableNo": "5050",
+  "TableName": "Contact",
+  "Name": "Duration (Min.)",
+  "SumFieldTable": "Interaction Log Entry",
+  "SumFieldName": "Duration (Min.)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Contact Company No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Canceled",
+      "Type": "Static",
+      "Value": "false"
+    },
+    {
+      "Field": "Contact No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Postponed",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

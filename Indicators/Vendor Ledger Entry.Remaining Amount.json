@@ -1,0 +1,18 @@
+{
+  "TableNo": "25",
+  "TableName": "Vendor Ledger Entry",
+  "Name": "Remaining Amount",
+  "SumFieldTable": "Detailed Vendor Ledg. Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Vendor Ledger Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

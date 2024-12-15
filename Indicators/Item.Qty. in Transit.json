@@ -1,0 +1,43 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Qty. in Transit",
+  "SumFieldTable": "Transfer Line",
+  "SumFieldName": "Qty. in Transit (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Derived From Line No.",
+      "Type": "Static",
+      "Value": "0"
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Transfer-to Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Shortcut Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Shortcut Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Receipt Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Unit of Measure Code",
+      "Type": "Static"
+    }
+  ]
+}

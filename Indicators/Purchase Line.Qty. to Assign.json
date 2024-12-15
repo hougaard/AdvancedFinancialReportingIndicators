@@ -1,0 +1,22 @@
+{
+  "TableNo": "39",
+  "TableName": "Purchase Line",
+  "Name": "Qty. to Assign",
+  "SumFieldTable": "Item Charge Assignment (Purch)",
+  "SumFieldName": "Qty. to Assign",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document Line No.",
+      "Type": "Static"
+    }
+  ]
+}

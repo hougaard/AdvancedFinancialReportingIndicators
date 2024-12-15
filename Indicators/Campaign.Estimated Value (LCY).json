@@ -1,0 +1,19 @@
+{
+  "TableNo": "5071",
+  "TableName": "Campaign",
+  "Name": "Estimated Value (LCY)",
+  "SumFieldTable": "Opportunity Entry",
+  "SumFieldName": "Estimated Value (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Campaign No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Active",
+      "Type": "Static",
+      "Value": "true"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "TableNo": "5063",
+  "TableName": "Interaction Group",
+  "Name": "Cost (LCY)",
+  "SumFieldTable": "Interaction Log Entry",
+  "SumFieldName": "Cost (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Interaction Group Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Canceled",
+      "Type": "Static",
+      "Value": "false"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Postponed",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "TableNo": "9054",
+  "TableName": "Finance Cue",
+  "Name": "Total Overdue (LCY)",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Initial Entry Due Date",
+      "Type": "Column Period"
+    }
+  ]
+}

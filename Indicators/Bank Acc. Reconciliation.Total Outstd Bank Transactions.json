@@ -1,0 +1,24 @@
+{
+  "TableNo": "273",
+  "TableName": "Bank Acc. Reconciliation",
+  "Name": "Total Outstd Bank Transactions",
+  "SumFieldTable": "Bank Account Ledger Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Bank Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Open",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Check Ledger Entries",
+      "Type": "Static",
+      "Value": "0"
+    }
+  ]
+}

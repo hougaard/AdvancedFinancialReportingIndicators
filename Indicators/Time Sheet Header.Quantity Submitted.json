@@ -1,0 +1,19 @@
+{
+  "TableNo": "950",
+  "TableName": "Time Sheet Header",
+  "Name": "Quantity Submitted",
+  "SumFieldTable": "Time Sheet Detail",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Time Sheet No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "Submitted"
+    }
+  ]
+}

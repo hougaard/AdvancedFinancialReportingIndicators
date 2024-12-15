@@ -1,0 +1,27 @@
+{
+  "TableNo": "99000754",
+  "TableName": "Work Center",
+  "Name": "Prod. Order Need (Qty.)",
+  "SumFieldTable": "Prod. Order Capacity Need",
+  "SumFieldName": "Allocated Time",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Work Center No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Status",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Requested Only",
+      "Type": "Static",
+      "Value": "false"
+    }
+  ]
+}

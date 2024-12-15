@@ -1,0 +1,54 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Net Change",
+  "SumFieldTable": "Item Ledger Entry",
+  "SumFieldName": "Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Global Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Global Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Drop Shipment",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Lot No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Serial No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Unit of Measure Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Package No.",
+      "Type": "Static"
+    }
+  ]
+}

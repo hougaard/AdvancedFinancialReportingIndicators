@@ -1,0 +1,43 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Scheduled Receipt (Qty.)",
+  "SumFieldTable": "Prod. Order Line",
+  "SumFieldName": "Remaining Qty. (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static",
+      "Value": "\"Firm Planned\" | Released"
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Shortcut Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Shortcut Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Due Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Unit of Measure Code",
+      "Type": "Static"
+    }
+  ]
+}

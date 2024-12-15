@@ -1,0 +1,14 @@
+{
+  "TableNo": "1242",
+  "TableName": "Positive Pay Footer",
+  "Name": "Grand Total",
+  "SumFieldTable": "Positive Pay Detail",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Data Exch. Entry No.",
+      "Type": "Static"
+    }
+  ]
+}

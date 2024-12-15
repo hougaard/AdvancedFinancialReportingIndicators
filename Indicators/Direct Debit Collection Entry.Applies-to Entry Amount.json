@@ -1,0 +1,19 @@
+{
+  "TableNo": "1208",
+  "TableName": "Direct Debit Collection Entry",
+  "Name": "Applies-to Entry Amount",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Cust. Ledger Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "\"Initial Entry\" | \"Unrealized Loss\" | \"Unrealized Gain\" | \"Realized Loss\" | \"Realized Gain\" | \"Payment Discount\" | \"Payment Discount (VAT Excl.)\" | \"Payment Discount (VAT Adjustment)\" | \"Payment Tolerance\" | \"Payment Discount Tolerance\" | \"Payment Tolerance (VAT Excl.)\" | \"Payment Tolerance (VAT Adjustment)\" | \"Payment Discount Tolerance (VAT Excl.)\" | \"Payment Discount Tolerance (VAT Adjustment)\""
+    }
+  ]
+}

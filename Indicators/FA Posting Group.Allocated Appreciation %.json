@@ -1,0 +1,19 @@
+{
+  "TableNo": "5606",
+  "TableName": "FA Posting Group",
+  "Name": "Allocated Appreciation %",
+  "SumFieldTable": "FA Allocation",
+  "SumFieldName": "Allocation %",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Allocation Type",
+      "Type": "Static",
+      "Value": "Appreciation"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Qty. Picked",
+  "SumFieldTable": "Warehouse Shipment Line",
+  "SumFieldName": "Qty. Picked (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Due Date",
+      "Type": "Column Period"
+    }
+  ]
+}

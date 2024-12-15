@@ -1,0 +1,22 @@
+{
+  "TableNo": "5072",
+  "TableName": "Campaign Entry",
+  "Name": "Duration (Min.)",
+  "SumFieldTable": "Interaction Log Entry",
+  "SumFieldName": "Duration (Min.)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Campaign No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Campaign Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Canceled",
+      "Type": "Static"
+    }
+  ]
+}

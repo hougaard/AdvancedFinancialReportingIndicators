@@ -1,0 +1,28 @@
+{
+  "TableNo": "5090",
+  "TableName": "Sales Cycle",
+  "Name": "Calcd. Current Value (LCY)",
+  "SumFieldTable": "Opportunity Entry",
+  "SumFieldName": "Calcd. Current Value (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Active",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Sales Cycle Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Action Taken",
+      "Type": "Static",
+      "Value": "<> Won & <> Lost"
+    },
+    {
+      "Field": "Estimated Close Date",
+      "Type": "Column Period"
+    }
+  ]
+}

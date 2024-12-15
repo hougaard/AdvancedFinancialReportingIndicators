@@ -1,0 +1,18 @@
+{
+  "TableNo": "5405",
+  "TableName": "Production Order",
+  "Name": "Expected Material Ovhd. Cost",
+  "SumFieldTable": "Prod. Order Component",
+  "SumFieldName": "Overhead Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Status",
+      "Type": "Static"
+    },
+    {
+      "Field": "Prod. Order No.",
+      "Type": "Static"
+    }
+  ]
+}

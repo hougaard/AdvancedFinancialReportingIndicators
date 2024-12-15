@@ -1,0 +1,23 @@
+{
+  "TableNo": "25",
+  "TableName": "Vendor Ledger Entry",
+  "Name": "Original Amount",
+  "SumFieldTable": "Detailed Vendor Ledg. Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Vendor Ledger Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "\"Initial Entry\""
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

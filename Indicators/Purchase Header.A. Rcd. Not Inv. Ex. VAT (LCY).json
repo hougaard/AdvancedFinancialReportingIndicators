@@ -1,0 +1,18 @@
+{
+  "TableNo": "38",
+  "TableName": "Purchase Header",
+  "Name": "A. Rcd. Not Inv. Ex. VAT (LCY)",
+  "SumFieldTable": "Purchase Line",
+  "SumFieldName": "A. Rcd. Not Inv. Ex. VAT (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Document Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Document No.",
+      "Type": "Static"
+    }
+  ]
+}

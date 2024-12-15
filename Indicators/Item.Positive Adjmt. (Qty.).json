@@ -1,0 +1,55 @@
+{
+  "TableNo": "27",
+  "TableName": "Item",
+  "Name": "Positive Adjmt. (Qty.)",
+  "SumFieldTable": "Item Ledger Entry",
+  "SumFieldName": "Invoiced Quantity",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Entry Type",
+      "Type": "Static",
+      "Value": "\"Positive Adjmt.\""
+    },
+    {
+      "Field": "Item No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Global Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Global Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Location Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Drop Shipment",
+      "Type": "Static"
+    },
+    {
+      "Field": "Variant Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Lot No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Serial No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Package No.",
+      "Type": "Static"
+    }
+  ]
+}

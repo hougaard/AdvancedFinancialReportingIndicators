@@ -1,0 +1,14 @@
+{
+  "TableNo": "32",
+  "TableName": "Item Ledger Entry",
+  "Name": "Cost Amount (Non-Invtbl.)(ACY)",
+  "SumFieldTable": "Value Entry",
+  "SumFieldName": "Cost Amount (Non-Invtbl.)(ACY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Item Ledger Entry No.",
+      "Type": "Static"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "TableNo": "5222",
+  "TableName": "Employee Ledger Entry",
+  "Name": "Debit Amount (LCY)",
+  "SumFieldTable": "Detailed Employee Ledger Entry",
+  "SumFieldName": "Debit Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Ledger Entry Amount",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Employee Ledger Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

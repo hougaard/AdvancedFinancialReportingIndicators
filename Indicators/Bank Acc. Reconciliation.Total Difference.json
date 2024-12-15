@@ -1,0 +1,22 @@
+{
+  "TableNo": "273",
+  "TableName": "Bank Acc. Reconciliation",
+  "Name": "Total Difference",
+  "SumFieldTable": "Bank Acc. Reconciliation Line",
+  "SumFieldName": "Difference",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Statement Type",
+      "Type": "Static"
+    },
+    {
+      "Field": "Bank Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Statement No.",
+      "Type": "Static"
+    }
+  ]
+}

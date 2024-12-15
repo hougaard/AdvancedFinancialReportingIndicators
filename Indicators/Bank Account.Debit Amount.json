@@ -1,0 +1,26 @@
+{
+  "TableNo": "270",
+  "TableName": "Bank Account",
+  "Name": "Debit Amount",
+  "SumFieldTable": "Bank Account Ledger Entry",
+  "SumFieldName": "Debit Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Bank Account No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Global Dimension 1 Code",
+      "Type": "Global Dim 1"
+    },
+    {
+      "Field": "Global Dimension 2 Code",
+      "Type": "Global Dim 2"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

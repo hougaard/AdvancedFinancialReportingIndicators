@@ -1,0 +1,30 @@
+{
+  "TableNo": "1103",
+  "TableName": "Cost Type",
+  "Name": "Budget Debit Amount",
+  "SumFieldTable": "Cost Budget Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Cost Type No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cost Center Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cost Object Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Date",
+      "Type": "Column Period"
+    },
+    {
+      "Field": "Budget Name",
+      "Type": "Static"
+    }
+  ]
+}

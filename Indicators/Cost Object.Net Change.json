@@ -1,0 +1,22 @@
+{
+  "TableNo": "1113",
+  "TableName": "Cost Object",
+  "Name": "Net Change",
+  "SumFieldTable": "Cost Entry",
+  "SumFieldName": "Amount",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Cost Object Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Cost Type No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}

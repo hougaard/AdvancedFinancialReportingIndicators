@@ -1,0 +1,44 @@
+{
+  "TableNo": "32",
+  "TableName": "Item Ledger Entry",
+  "Name": "Reserved Quantity",
+  "SumFieldTable": "Reservation Entry",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Source ID",
+      "Type": "Static",
+      "Value": "''"
+    },
+    {
+      "Field": "Source Ref. No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Source Type",
+      "Type": "Static",
+      "Value": "32"
+    },
+    {
+      "Field": "Source Subtype",
+      "Type": "Static",
+      "Value": "\"0\""
+    },
+    {
+      "Field": "Source Batch Name",
+      "Type": "Static",
+      "Value": "''"
+    },
+    {
+      "Field": "Source Prod. Order Line",
+      "Type": "Static",
+      "Value": "0"
+    },
+    {
+      "Field": "Reservation Status",
+      "Type": "Static",
+      "Value": "Reservation"
+    }
+  ]
+}

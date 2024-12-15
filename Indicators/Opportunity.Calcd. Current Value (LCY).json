@@ -1,0 +1,19 @@
+{
+  "TableNo": "5092",
+  "TableName": "Opportunity",
+  "Name": "Calcd. Current Value (LCY)",
+  "SumFieldTable": "Opportunity Entry",
+  "SumFieldName": "Calcd. Current Value (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Opportunity No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Active",
+      "Type": "Static",
+      "Value": "true"
+    }
+  ]
+}

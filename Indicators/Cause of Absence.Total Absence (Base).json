@@ -1,0 +1,22 @@
+{
+  "TableNo": "5206",
+  "TableName": "Cause of Absence",
+  "Name": "Total Absence (Base)",
+  "SumFieldTable": "Employee Absence",
+  "SumFieldName": "Quantity (Base)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Cause of Absence Code",
+      "Type": "Static"
+    },
+    {
+      "Field": "Employee No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "From Date",
+      "Type": "Column Period"
+    }
+  ]
+}

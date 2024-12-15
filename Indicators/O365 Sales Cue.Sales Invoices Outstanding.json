@@ -1,0 +1,9 @@
+{
+  "TableNo": "9069",
+  "TableName": "O365 Sales Cue",
+  "Name": "Sales Invoices Outstanding",
+  "SumFieldTable": "Detailed Cust. Ledg. Entry",
+  "SumFieldName": "Amount (LCY)",
+  "Type": "SumField",
+  "Filters": []
+}

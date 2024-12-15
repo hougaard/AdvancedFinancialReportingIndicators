@@ -1,0 +1,23 @@
+{
+  "TableNo": "25",
+  "TableName": "Vendor Ledger Entry",
+  "Name": "Credit Amount (LCY)",
+  "SumFieldTable": "Detailed Vendor Ledg. Entry",
+  "SumFieldName": "Credit Amount (LCY)",
+  "Type": "SumField",
+  "Filters": [
+    {
+      "Field": "Ledger Entry Amount",
+      "Type": "Static",
+      "Value": "true"
+    },
+    {
+      "Field": "Vendor Ledger Entry No.",
+      "Type": "Static"
+    },
+    {
+      "Field": "Posting Date",
+      "Type": "Column Period"
+    }
+  ]
+}
